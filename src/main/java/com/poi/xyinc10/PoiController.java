@@ -21,7 +21,7 @@ public class PoiController {
     }
 
 
-     @GetMapping("/")
+     @GetMapping("")
     public List<PointInterest>listarpointinterest(
 
             @RequestParam (name = "coordenadaX", required = false) String coordenadaX,
@@ -43,7 +43,7 @@ public class PoiController {
          return poiRepository.findAll();
      }
 
-    @DeleteMapping("/{id")
+    @DeleteMapping("/{id}")
     public void excluirpointinterest(@PathVariable Long id){
         poiRepository.deleteById(id);
     }
