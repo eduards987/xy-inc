@@ -10,8 +10,9 @@
     API em RESTful JSON
 
    
-    <h2>Problema</h2>
-
+    
+    Problema
+    
     A CoordinatesCompany é uma empresa especializada na produção de excelentes
 receptores GPS (Global Positioning System). A diretoria está empenhada em lançar um
 dispositivo inovador que promete auxiliar pessoas na localização de ponto de interesse
@@ -88,7 +89,10 @@ Resposta
 
 Para executar o program será nescessario
 
+Para rodar o projeto é nescessario uma IDE de Java ( Netbeans, Eclipse, IntelliJ), dentro da IDE importe o projeto, após baixar o projeto que utiliza MAVEN irá baixar todas as dependencias nescessarias para rodar o programa
 Ter um Banco de daos com o nome pois_db e criar uma tabela com as informações solicitadas(coordenadaX, coordenadaY, nome) foi acrecenta o id nesse projeto para que fosse possivel efetuar a exclusão do dado solicitado
 O Banco de dados tem que estar na porta 8080 para conseguir executar o mesmo.
+O projeto por padrão está rodando em MySQL
+
 
     
